@@ -13,3 +13,5 @@ document.addEventListener("DOMContentLoaded", function () {
 function myFunction(x) {
     x.classList.toggle("change");
 }
+
+// Multi-item carousel
