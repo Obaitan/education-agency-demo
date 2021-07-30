@@ -304,7 +304,7 @@ footer {
 }
 
 .icon-link:hover {
-  color: #004cff;
+  color: #969696;
 }
 
 .ring {
@@ -313,7 +313,7 @@ footer {
   align-items: center;
   height: 2.25rem;
   width: 2.25rem;
-  background-color: #00ccff;
+  background-color: #004cff;
 }
 
 .company-link {
@@ -365,6 +365,56 @@ footer {
 }
 
 /* ...About Page... */
+
+/* ...Contact Page... */
+.main-contact {
+  padding: 3rem 0 4rem 0;
+  min-height: 50vh;
+}
+
+.cs-head {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.65rem;
+  color: #011a53;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+#one,
+#two,
+#three,
+#four {
+  background-color: #f7f7f7;
+  outline: none;
+  border: none;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.sphere {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #00ccff;
+  z-index: 1030;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 12%), 0 2px 10px 0 rgb(0 0 0 / 10%);
+}
+
+.peel {
+  width: 90%;
+  padding: 1.25rem;
+  border-radius: 6px;
+  background-color: #f8f8f9;
+  position: relative;
+  left: -20px;
+  box-shadow: 0 2px 5px 2px rgb(0 0 0 / 5%), 0 2px 8px 2px rgb(0 0 0 / 5%);
+}
+/* ...Contact Page... */
 
 /* Media Queries */
 @media (max-width: 1025px) {
@@ -513,6 +563,14 @@ footer {
   .partner-section-about {
     margin-top: 100vh;
   }
+
+  .banner {
+    width: 100%;
+  }
+
+  .peel {
+    width: 100%;
+  }
 }
 
 @media (max-width: 375px) {
@@ -520,7 +578,7 @@ footer {
     margin-top: 122vh;
   }
 
-   .partner-section-about {
+  .partner-section-about {
     margin-top: 110vh;
   }
 }
@@ -531,7 +589,7 @@ footer {
     height: 90vh;
   }
 
-   .partner-section-about {
+  .partner-section-about {
     margin-top: 127vh;
   }
 }
@@ -542,7 +600,7 @@ footer {
     height: 70vh;
   }
 
-   .partner-section-about {
+  .partner-section-about {
     margin-top: 87vh;
   }
 }
