@@ -391,7 +391,7 @@ footer {
 
 .banner {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   width: 90%;
 }
@@ -408,13 +408,42 @@ footer {
 .peel {
   width: 90%;
   padding: 1.25rem;
+  padding-right: 1.95rem;
   border-radius: 6px;
   background-color: #f8f8f9;
   position: relative;
   left: -20px;
+  overflow-wrap: break-word;
   box-shadow: 0 2px 5px 2px rgb(0 0 0 / 5%), 0 2px 8px 2px rgb(0 0 0 / 5%);
 }
 /* ...Contact Page... */
+
+/* ...Home2 Page... */
+.about-section2 {
+  padding: 6rem 0 0 0;
+}
+
+.cap-image {
+  width: 75%;
+}
+
+.large-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  color: #004cff;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.spacer {
+  margin-top: 8.5rem;
+}
+
+.left {
+  position: relative;
+  left: 3rem;
+}
+/* ...Home2 Page... */
 
 /* Media Queries */
 @media (max-width: 1025px) {
@@ -469,6 +498,10 @@ footer {
   .partner-section-about {
     margin-top: 23vh;
   }
+
+  .about-section2 {
+    margin-top: 20vh;
+  }
 }
 
 @media (max-width: 768px) {
@@ -503,6 +536,19 @@ footer {
 
   .partner-section-about {
     margin-top: 33vh;
+  }
+
+  .about-section2 {
+    margin-top: 33vh;
+  }
+
+  .spacer {
+    margin-top: 4.5rem;
+  }
+
+  .left {
+    position: relative;
+    left: 0;
   }
 }
 
@@ -571,6 +617,23 @@ footer {
   .peel {
     width: 100%;
   }
+
+  .cap-image {
+    width: 90%;
+  }
+
+  .about-section2 {
+    margin-top: 90vh;
+  }
+
+  .spacer {
+    margin-top: 2rem;
+  }
+
+  .large-text {
+    font-size: 1.3rem;
+    line-height: 1.4;
+  }
 }
 
 @media (max-width: 375px) {
@@ -580,6 +643,10 @@ footer {
 
   .partner-section-about {
     margin-top: 110vh;
+  }
+
+   .about-section2 {
+    margin-top: 100vh;
   }
 }
 
@@ -592,6 +659,10 @@ footer {
   .partner-section-about {
     margin-top: 127vh;
   }
+
+   .about-section2 {
+    margin-top: 118vh;
+  }
 }
 
 @media (min-height: 800px) and (max-width: 415px) {
@@ -602,5 +673,9 @@ footer {
 
   .partner-section-about {
     margin-top: 87vh;
+  }
+
+   .about-section2 {
+    margin-top: 80vh;
   }
 }
